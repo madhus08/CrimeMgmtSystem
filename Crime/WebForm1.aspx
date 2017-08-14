@@ -10,8 +10,13 @@
     <form id="form1" runat="server">
     <div>
     <h1>Crime Management System</h1>
-        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><asp:Button ID="Button1" runat="server" Text="Button" />
-    </div>
+        <asp:Button ID="Button1" runat="server" Text="User" OnClick="Button1_Click"/>
+        <br />
+        <asp:Button ID="Button2" runat="server" Text="Admin" OnClick="Button2_Click" /></div>
+    </form>
+    <form id="form2" runat="server" hidden="hidden">
+        <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox><br />
+        <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
     </form>
 </body>
 </html>
